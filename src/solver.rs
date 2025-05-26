@@ -31,7 +31,7 @@ fn tsp(dist: &Vec<Vec<i32>>, pos: usize, visited: usize, memo: &mut Vec<Vec<i32>
 
 fn main() {
 
-    // masukkan graf berbentuk matriks adjacency disini
+    // modify the distance matrix as needed
     let dist = vec![
         vec![0, 10, 15, 20],
         vec![5, 0, 9, 10],
